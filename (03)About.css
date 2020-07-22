@@ -1,0 +1,120 @@
+body{
+    background-image: url(\(03\)About.jpg);
+    background-size: cover;
+    margin: 0;
+}
+header{
+    background:rgba(0, 0, 0, 0.5);
+    height: 61px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.kiwo{
+    float: left;
+}
+.kiwo img{
+    width: 150px;
+    height: auto;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.tengen{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.tengen li{
+    display: inline-block;
+}
+.tengen li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+.tengen li.dibuka a{
+    border-bottom: 1px white solid;
+    padding-bottom: 23px;
+}
+.tengen li a:hover{
+    background-color: rgba(163, 163, 163, 0.5);
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 23px;
+    padding-top: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.tengen li.keluar a{
+    border-bottom: 1px lightblue solid;
+    padding-bottom: 23px;
+}
+.isi{
+    height: 500px;
+    margin-top: 10px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.isi .story{
+    text-indent: 100px;
+    width: 700px;
+    float: left;
+    text-align: justify;
+    background: white;
+    color: rgba(255, 255, 255, 0);
+    padding-right: 0px;
+    margin-left:350px;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-right: 5px black solid;
+}
+.isi .story:hover{
+    margin-left:0;
+    padding-right: 15px;
+    color: black;
+    text-indent: 100px;
+    width: 1050px;
+    float: left;
+    padding-top: 0;
+    text-align: justify;
+    background: white;
+    transition: 1s;
+    margin-top: 90px;
+    border-right: 5px black solid;
+}
+.isi img{
+    border-radius: 50%;
+    height: 250px;
+    width: auto;
+    float: right;
+    margin-top:100px;
+}
+.isi img:hover{
+    border-radius:0;
+    transition: 1s;
+}
+footer ul{
+    display: inline;
+    list-style: none;
+    padding: 0;
+}
+footer li img{
+    width: 30px;
+}
+footer li{
+    display: inline;
+}
+footer p{
+    margin-top: 5;
+}
+footer{
+    text-align: center;
+    background:rgb(32, 32, 32);
+    height: 40px;
+    padding-top: 10px;
+}
